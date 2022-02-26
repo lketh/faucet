@@ -17,11 +17,11 @@ jobs:
           version: nightly
 
       - name: Pull library deps
-        working-directory: faucet-foundry/contracts
+        working-directory: contracts
         run: forge update
 
       - name: Run forge tests
-        working-directory: faucet-foundry/contracts
+        working-directory: contracts
         run: forge test
 
   bindings:
@@ -35,11 +35,11 @@ jobs:
           version: nightly
 
       - name: Pull library deps
-        working-directory: faucet-foundry/contracts
+        working-directory: contracts
         run: forge update
 
       - name: Build contracts before checking bindings are correct
-        working-directory: faucet-foundry/contracts
+        working-directory: contracts
         run: forge build
 
       - name: Check bindings are correct
