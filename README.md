@@ -31,20 +31,6 @@ This is regular solidity, but tests were written using [foundry](https://github.
 
 ## Installing foundry
 
-![Rust](https://github.com/gakonst/foundry-rust-template/workflows/Rust/badge.svg)
-![Solidity](https://github.com/gakonst/foundry-rust-template/workflows/Solidity/badge.svg)
-[![Telegram Chat][tg-badge]][tg-url]
-
-[tg-badge]: https://img.shields.io/endpoint?color=neon&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Ffoundry_rs
-[tg-url]: https://t.me/foundry_rs
-
-**Template for quickly getting started with developing Rust applications that
-leverage Foundry for EVM smart contract development.**
-
-Continuous Integration is already set up to test both your Rust and Solidity
-code, as well as ensure formatting and that your Rust bindings match the
-Solidity build artifacts.
-
 ## Directory Structure
 
 The project is structured as a mixed Rust workspace with a Foundry project under
