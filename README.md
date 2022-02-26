@@ -8,7 +8,7 @@ I've been eager to learn rust for a while but it's hard without a project or ide
 
 ## Folders
 
-There are two folders, the frontend described at the top is in the `faucet` folder and the contracts and tests are in `faucet-contract`.
+There are two folders, the frontend described at the top is in the `faucet-ui` folder and the contracts and tests are in `faucet-foundry` folder.
 
 ## Frontend installation
 

@@ -1,2 +1,2 @@
-target/*
-dist/*
+faucet-ui/target/*
+faucet-ui/dist/*
