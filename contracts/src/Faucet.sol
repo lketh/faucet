@@ -35,7 +35,7 @@ contract Faucet {
     owner = _owner;
   }
 
-  function setAmountallowed(uint256 _amountAllowed) public onlyOwner {
+  function setAmountAllowed(uint256 _amountAllowed) public onlyOwner {
     amountAllowed = _amountAllowed;
   }
 
@@ -82,7 +82,7 @@ contract Faucet {
       refundGas();
     }
 
-    (bool success, ) = msg.sender.call{ value: (amountAllowed) }("");
+    (bool success, ) = _dest.call{ value: (amountAllowed) }("");
     require(success, "Transfer failed.");
   }
 }

@@ -47,6 +47,6 @@ contract RustyFounderTest is DSTest {
   }
 
   function getTokensByDonation() public {
-    assert(true);
+    assertTrue(rustyfounder.balanceOf(address(faucet)) == 21000e18);
   }
 }
